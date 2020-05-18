@@ -14,7 +14,7 @@
 
 ​	This are the four operations which are performed on any particular database
 
-![Database Operations](https://github.com/jaySiddhapura-eng/MySQL/blob/master/Capture.PNG)
+![Database Operations](https://github.com/jaySiddhapura-eng/MySQL/blob/master/Capture.PNG =100x20)
 
 ## Types of database
 
