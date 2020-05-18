@@ -14,14 +14,7 @@
 
 ​	This are the four operations which are performed on any particular database
 
-```mermaid
-stateDiagram
-	[*] --> CreateDatabase
-	CreateDatabase -->CreateTable
-	CreateTable -->InsertData
-	InsertData --> AccessOrModifyData
-	AccessOrModifyData -->InsertData
-```
+![Database Operations](https://github.com/jaySiddhapura-eng/MySQL/blob/master/Capture.PNG)
 
 ## Types of database
 
