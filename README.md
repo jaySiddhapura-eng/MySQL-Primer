@@ -64,16 +64,22 @@ stateDiagram
 ## Core Concepts in RDB [relational database]
 
  1.	Row X Column [R = attributes , C = values]
+ 
  2.	C = single attribute . R = Entry
+ 
  3.	**Primary key** 
-     	1.	Special column
-     	2.	That attribute of the column will represents the primary key
-     	3.	Can be consider as token for each entry [generally UID is primary key]
-     	4.	<u>User can provide primary key and retrieve the corresponding data</u> 
-     	5.	Unique entry, no same value between two entries
+ 
+     	1. Special column
+     	2. That attribute of the column will represents the primary key
+     	3. Can be consider as token for each entry [generally UID is primary key]
+     	4. <u>User can provide primary key and retrieve the corresponding data</u> 
+     	5. Unique entry, no same value between two entries
+	
 4.	**Surrogate key**
-      	1.	Does not hold any real world importance
-         	2.	But necessary to represent the entry inside the database [example UID]
+
+      	1. Does not hold any real world importance
+        2. But necessary to represent the entry inside the database [example UID]
+	
 5.	**Natural key** 
       	1.	A key which used in data base to uniquely identify the entry 
          	2.	Also the same key holds real world importance
