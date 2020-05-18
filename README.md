@@ -70,14 +70,19 @@ stateDiagram
  3.	**Primary key** 
  
      	1. Special column
+	
      	2. That attribute of the column will represents the primary key
+	
      	3. Can be consider as token for each entry [generally UID is primary key]
-     	4. <u>User can provide primary key and retrieve the corresponding data</u> 
+	
+     	4. <u>User can provide primary key and retrieve the corresponding data</u>
+	
      	5. Unique entry, no same value between two entries
 	
 4.	**Surrogate key**
 
       	1. Does not hold any real world importance
+	
         2. But necessary to represent the entry inside the database [example UID]
 	
 5.	**Natural key** 
@@ -119,7 +124,7 @@ stateDiagram
 
  7. Capital letters are the SQL syntax
 
-     1.	student is the name of table
+     1.	student is the name of table<br><br>
 
  8. Following are the common **data types**
 
