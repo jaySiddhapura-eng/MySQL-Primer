@@ -63,46 +63,55 @@ stateDiagram
 
 ## Core Concepts in RDB [relational database]
 
- 1.	Row X Column [R = attributes , C = values]
+ 1. Row X Column [R = attributes , C = values]
  
- 2.	C = single attribute . R = Entry
+ 2. C = single attribute . R = Entry
  
- 2. Non-Relational [NoSQL / not just SQL]
+ 3. **Primary key** 
+   
+    1. Special column
+	
+    2. That attribute of the column will represents the primary key
+	
+    3. Can be consider as token for each entry [generally UID is primary key]
+	
+    4. <u>User can provide primary key and retrieve the corresponding data</u>
+	
+    5. Unique entry, no same value between two entries
+	
+4. **Surrogate key**
 
-   1. Non table format database
- 
- 3.	**Primary key** 
- 
-     	1. Special column<br>
+    1. Does not hold any real world importance<br>
 	
-     	2. That attribute of the column will represents the primary key<br>
+    2. But necessary to represent the entry inside the database [example UID]
 	
-     	3. Can be consider as token for each entry [generally UID is primary key]<br>
-	
-     	4. <u>User can provide primary key and retrieve the corresponding data</u><br>
-	
-     	5. Unique entry, no same value between two entries<br>
-	
-4.	**Surrogate key**
+5. **Natural key** 
 
-      	1. Does not hold any real world importance<br>
-	
-        2. But necessary to represent the entry inside the database [example UID]<br>
-	
-5.	**Natural key** 
-      	1.	A key which used in data base to uniquely identify the entry 
-         	2.	Also the same key holds real world importance
-            	3.	Example: database entry with social security number
-6.	**Foreign key**
-      	1.	**Map the row or entry** in one table to the other table
-         	2.	Example: one data base with branch ID column - there is one more database which has branch ID related data so by using branch ID of one database operator can go to another database
-            	3.	This key can be used to define the **relationship between tables/database** 
-               	4.	Possibility of having **more than 1 foreign key** for one entry
-                  	5.	Foreign key can **hold the reference to the another entry** in the same data table
-7.	**Composite key**
-      	1.	Composite key needs two attributes 
-         	2.	To uniquely identify each raw, you need both the keys of composite key
-            	3.	No individual key of composite key can identify that particular row
+    1. A key which used in data base to uniquely identify the entry
+    
+    2. Also the same key holds real world importance
+    
+    3. Example: database entry with social security number
+    
+6. **Foreign key**
+
+    1. **Map the row or entry** in one table to the other table
+    
+    2. Example: one data base with branch ID column - there is one more database which has branch ID related data so by using branch ID 	 of one database operator can go to another database
+    
+    3. This key can be used to define the **relationship between tables/database**
+    
+    4. Possibility of having **more than 1 foreign key** for one entry
+    
+    5. Foreign key can **hold the reference to the another entry** in the same data table
+    
+7. **Composite key**
+
+    1. Composite key needs two attributes
+    
+    2. To uniquely identify each raw, you need both the keys of composite key
+    
+    3. No individual key of composite key can identify that particular row
 
 ## How to Create Table in MySQL?
 
