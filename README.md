@@ -379,13 +379,13 @@
 
 ## Links
 
- 1. repository: https://github.com/jaySiddhapura-eng/MySQL
+ 1. repository: [https://github.com/jaySiddhapura-eng/MySQL](https://github.com/jaySiddhapura-eng/MySQL)
 
- 2. Sample company database: https://github.com/jaySiddhapura-eng/MySQL/blob/master/sampleOrgTable.sql
+ 2. Sample company database: [https://github.com/jaySiddhapura-eng/MySQL/blob/master/sampleOrgTable.sql](https://github.com/jaySiddhapura-eng/MySQL/blob/master/sampleOrgTable.sql)
 
- 3. Tool which is being used: https://popsql.com/pricing 
+ 3. Tool which is being used: [https://popsql.com/pricing](https://popsql.com/pricing)
 
- 4. MySQL community server: https://dev.mysql.com/downloads/mysql/ 
+ 4. MySQL community server: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
 
     
 
