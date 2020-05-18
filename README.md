@@ -69,21 +69,21 @@ stateDiagram
  
  3.	**Primary key** 
  
-     	1. Special column
+     	1. Special column<br>
 	
-     	2. That attribute of the column will represents the primary key
+     	2. That attribute of the column will represents the primary key<br>
 	
-     	3. Can be consider as token for each entry [generally UID is primary key]
+     	3. Can be consider as token for each entry [generally UID is primary key]<br>
 	
-     	4. <u>User can provide primary key and retrieve the corresponding data</u>
+     	4. <u>User can provide primary key and retrieve the corresponding data</u><br>
 	
-     	5. Unique entry, no same value between two entries
+     	5. Unique entry, no same value between two entries<br>
 	
 4.	**Surrogate key**
 
-      	1. Does not hold any real world importance
+      	1. Does not hold any real world importance<br>
 	
-        2. But necessary to represent the entry inside the database [example UID]
+        2. But necessary to represent the entry inside the database [example UID]<br>
 	
 5.	**Natural key** 
       	1.	A key which used in data base to uniquely identify the entry 
