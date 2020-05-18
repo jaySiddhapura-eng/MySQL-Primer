@@ -128,11 +128,11 @@ stateDiagram
  6. **To create** the table
 
     ~~~mysql
-    CREATE TABLE student(
-    	student_id INT PRIMARY KEY,
-    	name VARCHAR(20),
-    	major VARCHAR(20)
-    	);
+    		CREATE TABLE student(
+    		student_id INT PRIMARY KEY,
+    		name VARCHAR(20),
+    		major VARCHAR(20)
+    		);
     ~~~
 
  7. Capital letters are the SQL syntax
@@ -141,41 +141,41 @@ stateDiagram
  8. Following are the common **data types**
 
     ~~~mysql
-    	integerVaraiable INT
-    	StringVariable VARCHAR(20) /*20 is capacity of String in terms of char*/
-    	decimalNumbers DECIMAL(20,3)  
-    	/*20 is digit capacity before decimal pt. */
-    	/*3 is digit capacity before decimal pt.*/
-    	photo BLOB NOT NULL,
-    	/*photos can be stored as blob*/
-    	birthDate DATE NOT NULL,
+    		integerVaraiable INT
+    		StringVariable VARCHAR(20) /*20 is capacity of String in terms of char*/
+    		decimalNumbers DECIMAL(20,3)  
+    		/*20 is digit capacity before decimal pt. */
+    		/*3 is digit capacity before decimal pt.*/
+    		photo BLOB NOT NULL,
+    		/*photos can be stored as blob*/
+    		birthDate DATE NOT NULL,
     ~~~
 
  9. To **see** the entire table [This command will only show the **DATABASE / TABLE schema**]
 
     ~~~mysql
-    	DESCRIBE student; /* student is the name of table*/
+    		DESCRIBE student; /* student is the name of table*/
     ~~~
 
  10. To delete the entire table
 
      ~~~mysql
-     	DROP TABLE STUDENT;
+     		DROP TABLE STUDENT;
      ~~~
 
  11. To add new column in the table [adding new schema in the table]
 
      ~~~mysql
-     	ALTER TABLE student ADD gpa DECIMAL(3,2);
-     	/*New column name gpa added in the table
-       	The data type of this new column will be DECIMAL*/
+     		ALTER TABLE student ADD gpa DECIMAL(3,2);
+     		/*New column name gpa added in the table
+       		The data type of this new column will be DECIMAL*/
      ~~~
 
  12. To delete certain column in the table[deleting certain schema in the table]
 
      ~~~mysql
-     	ALTER TABLE student DROP COLUMN gpa;
-     	/*same DROP command is used to delete column*/
+     		ALTER TABLE student DROP COLUMN gpa;
+     		/*same DROP command is used to delete column*/
      ~~~
 
 ## Inserting the data in the newly created TABLE
@@ -185,18 +185,18 @@ stateDiagram
  2. How to insert the attributes into the table individually
 
     ~~~mysql
-    	INSERT INTO student VALUES(1, 'Jake', 'biology', '85.90');
-    	INSERT INTO student VALUES(2, 'Kate', 'sociology', '80.90');
+    		INSERT INTO student VALUES(1, 'Jake', 'biology', '85.90');
+    		INSERT INTO student VALUES(2, 'Kate', 'sociology', '80.90');
     	
-    	/*when one of the attriute of entry is not available and
-    	you need to enter the entry anyway*/
-    	INSERT INTO student(student_id,name) VALUES(3,'keke');
+    		/*when one of the attriute of entry is not available and
+    		you need to enter the entry anyway*/
+    		INSERT INTO student(student_id,name) VALUES(3,'keke');
     ~~~
 
  3. How to view the created table with data in it
 
     ~~~mysql
-    	SELECT * FROM student;
+    		SELECT * FROM student;
     ~~~
 
 ## Constrains which you can put on the column while creating the table
@@ -208,12 +208,12 @@ stateDiagram
  3. **DEFAULT**: In case data is not available for that particular column then default value is assigned
 
     ~~~mysql
-    	CREATE TABLE student(
-        	student_id INT PRIMARY KEY,
-        	name VARCHAR(20) NOT NULL ,
-        	major VARCHAR(20) UNIQUE 
-    	);
-    	ALTER TABLE student ADD gpa DECIMAL(4,2) DEFAULT(00.00);
+    		CREATE TABLE student(
+        		student_id INT PRIMARY KEY,
+        		name VARCHAR(20) NOT NULL ,
+        		major VARCHAR(20) UNIQUE 
+    		);
+    		ALTER TABLE student ADD gpa DECIMAL(4,2) DEFAULT(00.00);
     ~~~
 
  4. **AUTO_INCREMENT**: Perform auto increment on the primary key. If you put auto_increment on primary key then you don’t have to incremental primary key element 
