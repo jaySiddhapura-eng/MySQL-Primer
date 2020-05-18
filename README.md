@@ -44,17 +44,22 @@ stateDiagram
 2. Non-Relational [NoSQL / not just SQL]
 
    1. Non table format database
+
    2. JSON, XML
+
    3. Flexible table
+
    4. NRDBMS helps user maintain the NoSQL database
+
    5. NoSQL example. [mongo DB, dynamo DB, apache Cassandra, firebase etc.]
+
    6. So specific SQL language, SQL language is implementation varies DB to DB
 
 ## What is Database Queries?
 
-1.	Queries are requests made to the DBMS for specific piece of information
+   1. Queries are requests made to the DBMS for specific piece of information
 
- 	2.	As DB become more complex, hard to get the specific piece of info.
+   2. As DB become more complex, hard to get the specific piece of info.
 
 ## Core Concepts in RDB [relational database]
 
