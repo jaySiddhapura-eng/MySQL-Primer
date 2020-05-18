@@ -14,7 +14,7 @@
 
 ​	This are the four operations which are performed on any particular database
 
-<img src="https://github.com/jaySiddhapura-eng/MySQL/blob/master/Capture.PNG" alt="drawing" width="200" height="200"/>
+<img src="https://github.com/jaySiddhapura-eng/MySQL/blob/master/Capture.PNG" alt="drawing" width="200" height="400"/>
 
 ## Types of database
 
