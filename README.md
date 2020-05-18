@@ -124,7 +124,7 @@ stateDiagram
 
  7. Capital letters are the SQL syntax
 
-     1.	student is the name of table<br><br>
+     1.	student is the name of table<br>
  8. Following are the common **data types**
 
     ~~~mysql
