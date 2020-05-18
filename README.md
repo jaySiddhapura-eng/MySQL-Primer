@@ -67,6 +67,10 @@ stateDiagram
  
  2.	C = single attribute . R = Entry
  
+ 2. Non-Relational [NoSQL / not just SQL]
+
+   1. Non table format database
+ 
  3.	**Primary key** 
  
      	1. Special column<br>
