@@ -13,6 +13,7 @@
 ​	**D** delete [ delete the data in database]
 
 ​	This are the four operations which are performed on any particular database
+![CRUD Operations on DB](assets/Capture.PNG)
 
 ## Types of database
 
